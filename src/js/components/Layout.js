@@ -1,5 +1,8 @@
 import React from 'react';
 import uuid from 'uuid';
+import { Button } from 'react-bootstrap';
+import { Glyphicon } from 'react-bootstrap';
+import { Tooltip } from 'react-bootstrap';
 
 // import all components
 
@@ -30,12 +33,13 @@ export default class Layout extends React.Component {
 		const {items} = this.state;
 
 		return (
-			<div>
+			<div className="layout">
 				<Header />
 				
-				<button className="add-item" onClick={this.addItem}>+</button>
+				<button className="button-add" onClick={this.addItem}><Glyphicon glyph="plus" />Add Item</button>
 				
 				<Items
+
 					items={items}
 					onItemClick={this.activateItemEdit}
 					onEdit={this.editItem}

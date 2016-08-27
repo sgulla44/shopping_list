@@ -1,8 +1,58 @@
 
+/*  Page Layout */
+
+
+.layout {
+	background-size: 50cm 60cm, fixed;
+	background-color: purple;
+	position: fixed;
+	margin-left: 50%;
+	margin-right: -50%;
+	margin-top: 44px;
+	padding-bottom: 50%;
+}
+
+
+
+.page {
+	background-color: orange;
+}
+
+.items-text {
+	color: white;
+	font-size: large;
+	display: block;
+	padding: 5px;
+}
+/* Header & Product Text */
+
+.header {
+	font-size: xx-large;
+	color:  yellow;
+	padding: 22px;
+}
 
 
 /*	Buttons	  */
 
-.Button {
-	background-color: 
+.button-add {
+	padding: 3px;
+	color: white;
+	outline: none;
+  	border: 0;
+  	background: transparent;
+
 }
+
+.button-delete {
+  	color: black;
+  	display: inline-block;
+  	padding-left: 10px;
+  	-webkit-appearance: none;
+  	outline: none;
+  	border: 0;
+  	background: transparent;
+}
+
+
+
